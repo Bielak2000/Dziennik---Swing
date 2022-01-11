@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="grupyy">
+  <grid id="27dc6" binding="Panel1" layout-manager="GridLayoutManager" row-count="15" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="557" height="552"/>
+    </constraints>
+    <properties>
+      <background color="-14969191"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="6852" class="javax.swing.JLabel" binding="j">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-328966"/>
+          <font name="SansSerif" size="25" style="1"/>
+          <foreground color="-16777216"/>
+          <horizontalAlignment value="2"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Grupy"/>
+        </properties>
+      </component>
+      <component id="3af36" class="javax.swing.JTable" binding="table">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <clientProperties>
+          <JTable.autoStartsEdit class="java.lang.Boolean" value="false"/>
+          <Table.isFileList class="java.lang.Boolean" value="false"/>
+          <terminateEditOnFocusLost class="java.lang.Boolean" value="false"/>
+        </clientProperties>
+      </component>
+      <hspacer id="35848">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="9c166" class="javax.swing.JTextField" binding="tnazwa">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="864c1" class="javax.swing.JLabel" binding="nazwa">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16"/>
+          <foreground color="-16777216"/>
+          <text value="Nazwa:"/>
+        </properties>
+      </component>
+      <component id="3dc69" class="javax.swing.JTextField" binding="timie">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="838af" class="javax.swing.JTextField" binding="tnazwisko">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="197bb" class="javax.swing.JTextField" binding="tpunkty">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="55feb" class="javax.swing.JLabel" binding="imie">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16"/>
+          <foreground color="-16777216"/>
+          <text value="Imie:"/>
+        </properties>
+      </component>
+      <component id="66d18" class="javax.swing.JLabel" binding="nazwisko">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16"/>
+          <foreground color="-16777216"/>
+          <text value="Nazwisko:"/>
+        </properties>
+      </component>
+      <component id="299ee" class="javax.swing.JLabel" binding="punkty">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16"/>
+          <foreground color="-16777216"/>
+          <text value="Punkty"/>
+        </properties>
+      </component>
+      <component id="4527" class="javax.swing.JButton" binding="zmien">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <label value="Zmien nazwe grupy"/>
+          <text value="Zmien nazwe grupy"/>
+        </properties>
+      </component>
+      <component id="cc42e" class="javax.swing.JButton" binding="dodajStudentaDoGrupyButton" default-binding="true">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Dodaj studenta do grupy"/>
+        </properties>
+      </component>
+      <component id="25db0" class="javax.swing.JButton" binding="usunStudentaZGrupyButton" default-binding="true">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Usun studenta z grupy"/>
+        </properties>
+      </component>
+      <component id="d619d" class="javax.swing.JButton" binding="pokazWszystkichStudentowButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Pokaz wszystkich studentow"/>
+        </properties>
+      </component>
+      <component id="150dc" class="javax.swing.JButton" binding="pokaz">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <label value="Pokaz studentow z zaznaczonej grupy"/>
+          <text value="Pokaz studentow z zaznaczonej grupy"/>
+        </properties>
+      </component>
+      <component id="8966d" class="javax.swing.JButton" binding="sort">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Sortuj po nazwie grupy"/>
+        </properties>
+      </component>
+      <component id="46309" class="javax.swing.JButton" binding="add">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <label value="Dodaj grupe"/>
+          <text value="Dodaj grupe"/>
+        </properties>
+      </component>
+      <component id="4506b" class="javax.swing.JButton" binding="button1" default-binding="true">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <actionCommand value="Delete"/>
+          <label value="Usun grupe"/>
+          <text value="Usun grupe"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

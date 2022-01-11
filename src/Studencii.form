@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Studencii">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="13" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="573" height="500"/>
+    </constraints>
+    <properties>
+      <background color="-15877330"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="240b7" class="javax.swing.JLabel" binding="j">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15877330"/>
+          <font size="26"/>
+          <foreground color="-13163958"/>
+          <text value="Studenci"/>
+        </properties>
+      </component>
+      <component id="a4af8" class="javax.swing.JTable" binding="table">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="ab0e8" class="javax.swing.JLabel" binding="nazwa">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16"/>
+          <foreground color="-16777216"/>
+          <text value="Imie:"/>
+        </properties>
+      </component>
+      <component id="d2325" class="javax.swing.JTextField" binding="tnazwa">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="5c6f" class="javax.swing.JTextField" binding="tnazwisko">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="7e13c" class="javax.swing.JTextField" binding="tpunkty">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="baa91" class="javax.swing.JLabel" binding="Nazwisko">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16"/>
+          <foreground color="-16777216"/>
+          <text value="Nazwisko:"/>
+        </properties>
+      </component>
+      <component id="fe68f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16"/>
+          <foreground color="-16777216"/>
+          <text value="Punkty:"/>
+        </properties>
+      </component>
+      <component id="7bf8d" class="javax.swing.JComboBox" binding="Box">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <toolTipText value=""/>
+        </properties>
+      </component>
+      <component id="5f715" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="Pokaz studentow z punktami wiekszymi lub rownymi:"/>
+        </properties>
+      </component>
+      <component id="d2211" class="javax.swing.JButton" binding="zmienStanStudentaButton" default-binding="true">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Zmien stan studenta"/>
+        </properties>
+      </component>
+      <component id="bf0e" class="javax.swing.JTextField" binding="tstan">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="5a2c7" class="javax.swing.JLabel" binding="stan">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16"/>
+          <foreground color="-16777216"/>
+          <text value="Nowy stan studenta:"/>
+        </properties>
+      </component>
+      <component id="66bc5" class="javax.swing.JButton" binding="zmien">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Zmien ilosc punktow"/>
+        </properties>
+      </component>
+      <component id="98826" class="javax.swing.JButton" binding="sortuj">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Sortuj studentow po nazwisku"/>
+        </properties>
+      </component>
+      <component id="e610e" class="javax.swing.JButton" binding="szukaj">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Wyszukaj studenta o podanym imieniu"/>
+        </properties>
+      </component>
+      <component id="35068" class="javax.swing.JButton" binding="add">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Dodaj"/>
+        </properties>
+      </component>
+      <component id="c850a" class="javax.swing.JButton" binding="button1">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Usun"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
